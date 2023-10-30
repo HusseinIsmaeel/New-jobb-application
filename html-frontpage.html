@@ -10,26 +10,65 @@
     </style> 
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div id="header-content">
             <img src="images/BABY BOSS SPEAK 0.png" alt="Företags Logo" id="logo">
             <h1>Jobbansökan</h1>
         </div>
+    </header> -->
+
+    <header>
+        <div id="header-content">
+            <img src="images/BABY BOSS SPEAK 0.png" alt="Företags Logo" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="#job-list">Lediga Jobb</a></li>
+                    <li><a href="#Career">Career</a></li>
+                    <li><a href="#about us">About us</a></li>
+
+
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </nav>
+            <h1>Jobbansökan</h1>
+        </div>
     </header>
+    
+
     <div id="main-content">
         <aside id="job-list">
             <h2>Lediga Jobb</h2>
             <ul>
-                <li>Webbutvecklare</li>
-                    <img src="images/DALL·E 2023-10-18 11.43.25 - Photo of a 1990s living room setting with pastel-colored wallpaper, typical old-fashioned carpet, and vintage window curtains. However, there's a twis.png" alt="logo">
-                
+                <li>Webbutvecklare</li>                
                 <li>Systemadministratör</li>
                 <li>Projektledare</li>
                 <!-- osv. -->
             </ul>
+
+            <aside id="job-list">
+                <h2>Lediga Jobb</h2>
+                <ul>
+                    <li>
+                        <div class="job-title">Webbutvecklare</div>
+                        <img src="images/DALL·E 2023-10-18 11.43.25.png" alt="Job Image">
+                        <button class="details-button">Mer Info</button>
+                    </li>
+                    <!-- Repeat for other jobs -->
+                </ul>
+            </aside>
+
+            
+            <form id="job-application-form">
+                <!-- Existing form fields -->
+                <label for="additional-info">Ytterligare Information:</label><br>
+                <textarea id="additional-info" name="additional-info" rows="4" cols="50" placeholder="Berätta mer om dig själv..."></textarea><br>
+                <input type="submit" value="Skicka">
+            </form>
+            
+
         </aside>
         <div id="form-container">
-            <!-- Din tidigare formulärkod här -->
+            <!-- formulärkod här -->
             <form id="job-application-form">
                 <label for="name">Namn:</label><br>
                 <input type="text" id="name" name="name" required><br>
@@ -41,9 +80,20 @@
             </form>
         </div>
     </div>
+
     <footer>
-        <p>&copy; 2023 Hossein Ismaeel Jobb Applikation | Göteborg - Sweden | 0722521474</p>
+        <div class="footer-content">
+            <p>&copy; 2023 Hossein Ismaeel Jobb Applikation | Göteborg - Sweden | 0722521474</p>
+            <!-- Add social media links or other information as needed -->
+        </div>
     </footer>
+
+    
+    <!-- <footer>
+        <p>&copy; 2023 Hossein Ismaeel Jobb Applikation | Göteborg - Sweden | 0722521474</p>
+    </footer> -->
+
+    
     <script src="js/script.js"></script>
 </body>
 </html>
